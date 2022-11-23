@@ -8,4 +8,5 @@ class Post < ApplicationRecord
     length: { maximum: 5000 }
   
   belongs_to :user
+  has_many :comments
 end

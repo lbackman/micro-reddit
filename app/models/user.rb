@@ -17,4 +17,5 @@ class User < ApplicationRecord
   validates :bio, length: { maximum: 500 }
 
   has_many :posts
+  has_many :comments
 end
